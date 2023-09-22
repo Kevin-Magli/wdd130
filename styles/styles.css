@@ -1,0 +1,19 @@
+nav {
+    float: left;
+    margin-bottom: 5px;
+    width: 100px;
+    /* background-color: rgb(145, 193, 233);  */
+}
+
+a {
+    display: block;
+    margin-top: 5px;
+}
+
+a {
+    display: block;
+    margin-bottom: 5px;
+    border-right: 2px solid black;
+    padding-right: 5px;
+    background: linear-gradient(to left, gray, white);
+}
