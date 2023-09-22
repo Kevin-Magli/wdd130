@@ -17,3 +17,7 @@ a {
     padding-right: 5px;
     background: linear-gradient(to left, gray, white);
 }
+
+p {
+    text-align: center;
+}
