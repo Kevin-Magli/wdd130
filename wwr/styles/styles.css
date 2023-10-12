@@ -53,7 +53,7 @@ main section {
 }
 main section img {
   box-sizing: border-box;
-  border: #e6af2e solid 3px;
+  /* border: #e6af2e solid 3px; */
 }
 
 #background {
@@ -140,7 +140,7 @@ h2 {
 }
 .msg p {
   color: black;
-  font-size: 0.8pm;
+  font-size: 0.8em;
   padding-bottom: 15px;
 }
 footer {
