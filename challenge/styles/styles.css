@@ -1,0 +1,22 @@
+body img {
+    width: 100%;
+}
+div {
+    display: inline;
+    text-align: center;
+    margin-top: -5px;
+}
+div img {
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+    border-radius: 50%;
+    border: 7px solid rgb(52, 52, 52);
+}
+
+#background {
+    background-color: rgb(94, 94, 94);
+    display: inline-block;
+    justify-content: center;
+}
+
