@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCF | Advanced Finder</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+    <style> body {background-color: rgb(37, 37, 45); color: aliceblue;} #logo {width: 200px;} </style>
+<body>
+    <header>
+        <div id="main-header">
+            <img id="logo" src="images/AF_logo.png" alt="logo">
+            <h1>KCF - Advanced Finder</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+        </nav>
+    </header>
+    <main>
+        <form id="search-bar" action="/search" method="get">
+            <input type="text" name="query" placeholder="Search...">
+            <button type="submit">Search</button>
+          </form>
+        <div id="advanced-filter">
+            <fieldset class="filter">
+                <legend>Type</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">Complete Lightsaber</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Specific Parts</label><br>
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Price Range</legend>
+                <label>
+                <input type="checkbox" name="maxCheckbox">
+                max: $<input type="text" name="maxInput">
+                </label><br>
+                <label>
+                <input type="checkbox" name="minCheckbox">
+                min: $<input type="text" name="minInput">
+                </label><br>
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Quality of Hilt</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">Toy</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Avarage</label><br>
+                <input type="checkbox" id="option3" name="option3">
+                <label for="option3">Good</label><br>
+                <input type="checkbox" id="option4" name="option4">
+                <label for="option4">Excellent</label><br>
+                <input type="checkbox" id="option5" name="option5">
+                <label for="option5">Pro Replica</label><br>           
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Blade</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">Simple</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Heavy Dueling</label><br>
+                <input type="checkbox" id="option3" name="option3">
+                <label for="option3">Led</label><br>
+                <input type="checkbox" id="option4" name="option4">
+                <label for="option4">NeoPixel</label><br>
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Style</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">Replica</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Custom</label><br>
+                <input type="checkbox" id="option3" name="option3">
+                <label for="option3">Personalized</label><br>
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Replica Type</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">Standard Sabers</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Double Sabers</label><br>
+                <input type="checkbox" id="option3" name="option3">
+                <label for="option3">Special Sabers</label><br>
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Soundchip</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">Standard Kit</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Custom Kit</label><br>
+                <input type="checkbox" id="option3" name="option3">
+                <label for="option3">Movie-Accurate Kit</label><br>
+            </fieldset>
+            <fieldset class="filter">
+                <legend>Power</legend>
+                <input type="checkbox" id="option1" name="option1">
+                <label for="option1">AA`s Batteries</label><br>
+                <input type="checkbox" id="option2" name="option2">
+                <label for="option2">Rechargable Batteries</label><br>
+            </fieldset>
+            <button type="submit">Search</button>
+        </div>
+    </main>
+    <footer>
+        <p>Kyber Crystal Finder (KCF) &copy; 2023</p>
+        <p>Kevin Magliocchi</p>
+        <div id="social-media">
+            <!-- icon link for every social media -->
+            <a href="https://personalwebsite.com" target="_blank"><img src="images/website.png" alt="website"></a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+            <a href="https://tiktok.com" target="_blank">
+                <img src="images/tiktok.png" alt="tiktok icon">
+        </div>
+    </footer>
+</body>
+</html>
