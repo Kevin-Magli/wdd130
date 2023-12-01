@@ -10,19 +10,24 @@
 <body>
     <header>
         <div id="main-header">
-            <img id="logo" src="images/AF_logo.png" alt="logo">
+            <img id="logo" src="images/AF-logo.png" alt="logo">
             <h1>KCF - Advanced Finder</h1>
         </div>
         <nav>
             <a href="index.html">Home</a>
-            <a href="aboutus.html">About Us</a>
+            <a href="about_us.html">About Us</a>
         </nav>
     </header>
     <main>
-        <form id="search-bar" action="/search" method="get">
-            <input type="text" name="query" placeholder="Search...">
-            <button type="submit">Search</button>
-          </form>
+        <div id="background">
+            <img src="images/AF-background.jpg" alt="background img">
+        </div>
+        <div id="search-div">
+            <form id="search-bar" action="/search" method="get">
+                <input type="text" name="query" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </div>
         <div id="advanced-filter">
             <fieldset class="filter">
                 <legend>Type</legend>
@@ -100,26 +105,30 @@
                 <input type="checkbox" id="option2" name="option2">
                 <label for="option2">Rechargable Batteries</label><br>
             </fieldset>
+        </div>
+        <div id="search-button">
             <button type="submit">Search</button>
         </div>
+        
     </main>
     <footer>
         <p>Kyber Crystal Finder (KCF) &copy; 2023</p>
         <p>Kevin Magliocchi</p>
         <div id="social-media">
             <!-- icon link for every social media -->
-            <a href="https://personalwebsite.com" target="_blank"><img src="images/website.png" alt="website"></a>
+            <a href="https://personalwebsite.com" target="_blank">
+                <img src="images/icons/website.png" alt="website"></a>
             <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+                <img src="images/icons/facebook.png" alt="fb icon">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="images/twitter.png" alt="twitter icon">
+                <img src="images/icons/X.png" alt="X icon">
             </a>
             <a href="https://instagram.com" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img src="images/icons/instagram.png" alt="instagram icon">
             </a>
             <a href="https://tiktok.com" target="_blank">
-                <img src="images/tiktok.png" alt="tiktok icon">
+                <img src="images/icons/tiktok.png" alt="tiktok icon">
         </div>
     </footer>
 </body>
